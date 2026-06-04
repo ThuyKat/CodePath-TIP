@@ -16,3 +16,5 @@ def find_missing_clues(clues, lower, upper):
         result+=[[missing[0],missing[-1]]]
     return result
 print(find_missing_clues([0, 1, 3, 50, 75],0,99))
+
+
