@@ -13,3 +13,5 @@ def final_value_after_operations(operations):
             value-= 1
     return value
 print(final_value_after_operations(["trouncy", "flouncy", "flouncy"]))
+
+# use a set be quicker than a tuple because set built on hashmap under the hood. 
